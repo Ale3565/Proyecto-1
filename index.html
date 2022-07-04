@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<title>AlexisLevano</title>
+</head>
+<body>
+	<canvas id="c"></canvas>
+
+<!-- Gameplay HUD -->
+<div class="hud">
+	<div class="hud__score">
+		<div class="score-lbl"></div>
+		<div class="cube-count-lbl"></div>
+	</div>
+	<div class="pause-btn"><div></div></div>
+	<div class="slowmo">
+		<div class="slowmo__bar"></div>
+	</div>
+</div>
+
+<!-- Menu System -->
+<div class="menus">
+	<div class="menu menu--main">
+		<h1>Cubos</h1>
+		<button type="button" class="play-normal-btn">Jugar</button>
+		<button type="button" class="play-casual-btn">Modo Casual</button>
+		<div class="credits">Un juego desarrollado por  Alexis Levano</a></div>
+	</div>
+	<div class="menu menu--pause">
+		<h1>Pausa</h1>
+		<button type="button" class="resume-btn">Volver al Juego</button>
+		<button type="button" class="menu-btn--pause">Menu Principal</button>
+	</div>
+	<div class="menu menu--score">
+		<h1>Fin del Juego</h1>
+		<h2>Tu Puntuacion:</h2>
+		<div class="final-score-lbl"></div>
+		<div class="high-score-lbl"></div>
+		<button type="button" class="play-again-btn">Jugar Otra Vez</button>
+		<button type="button" class="menu-btn--score">Menu Principal</button>
+	</div>
+</div>
+
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
